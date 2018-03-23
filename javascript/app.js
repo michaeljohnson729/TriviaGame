@@ -156,7 +156,7 @@ $(document).ready(function () {
 })
 var search = "funny cats"
 
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + search + "&api_key=S5EtC2wnRVlu7AA596sPIpZU0NffHR8w&limit=5&rating=G"
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + search + "&api_key=S5EtC2wnRVlu7AA596sPIpZU0NffHR8w&limit=5&rating=G"
 
       $.ajax({
         url: queryURL,
