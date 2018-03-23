@@ -1,1 +1,3 @@
 # TriviaGame
+
+This trivia game is composed of HTML, CSS, JS, and JQuery elements. Players are presented with a set of questions folowing the initiation of the game though a click of a start button. As users answer quesitons by selecting radio buttons, the checked value is compared against the correct answer for the question. The questions, possible answers, and correct answers are stored in an array of objects from which the quiz is made. A timer "setinterval" limits the amount of time the player has to answer all the questions to 120 seconds or 2 minutes. The player is presented with their results of the quiz either by clicking submit or when the timer reaches 0.
